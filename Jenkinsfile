@@ -2,7 +2,7 @@ pipeline {
 agent any
 
 environment {
-    IMAGE_NAME = "YOUR_DOCKERHUB_USERNAME/jenkins-cicd-demo"
+    IMAGE_NAME = "kabilmano/devop"
 }
 
 stages {
